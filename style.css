@@ -26,7 +26,7 @@
   .nav-links { display: flex; gap: 36px; list-style: none; }
   .nav-links a { font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-mid); text-decoration: none; transition: color 0.3s; }
   .nav-links a:hover { color: var(--terracotta); }
-  .nav-cta { background: var(--sage-dark) !important;  padding: 10px 22px; border-radius: 40px; transition: background 0.3s !important; }
+  .nav-cta { background:#c4896a; var(--sage-dark) !important;  padding: 10px 22px; border-radius: 40px; transition: background 0.3s !important; }
   .nav-cta:hover { background:white var(--terracotta) !important; }
 
   /* HERO */
@@ -41,7 +41,7 @@
   .hero-desc { font-size: 1rem; line-height: 1.85; color: var(--text-mid); font-weight: 300; max-width: 400px; margin-bottom: 48px; opacity: 0; animation: fadeUp 1s 0.7s forwards; }
   .hero-btns { display: flex; gap: 20px; align-items: center; opacity: 0; animation: fadeUp 1s 0.9s forwards; }
   .btn-p { background: var(--terracotta); color: white; padding: 15px 38px; border-radius: 60px; text-decoration: none; font-size: 0.88rem; font-weight: 500; letter-spacing: 0.04em; transition: all 0.3s; box-shadow: 0 8px 28px rgba(196,137,106,0.3); }
-  .btn-p:hover { background: var(--sage-dark); transform: translateY(-2px); }
+  .btn-p:hover { background:  var(--sage-dark); transform: translateY(-2px); }
   .btn-s { display: flex; align-items: center; gap: 10px; color: var(--text-mid); text-decoration: none; font-size: 0.88rem; transition: color 0.3s; }
   .btn-s .arr { width: 36px; height: 36px; border: 1px solid var(--stone-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
   .btn-s:hover { color: var(--terracotta); }
