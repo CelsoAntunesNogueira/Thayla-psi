@@ -10,18 +10,22 @@
 </head>
 <body>
 
-<div id="cursor"></div>
-<div id="cursor-ring"></div>
+
 
 <nav id="nav">
   <div class="nav-logo">Thayla Monteiro  · Psicóloga</div>
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-menu">
     <li><a href="#sobre">Sobre</a></li>
     <li><a href="#servicos">Serviços</a></li>
     <li><a href="#abordagem">Abordagsem</a></li>
-    <li><a href="#depoimentos">Depoimentos</a></li>
-    <li><a href="#contato" class="nav-cta">Agendar</a></li>
+   <!-- <li><a href="#depoimentos">Depoimentos</a></li> -->
+    <li><a href="https://wa.me/5521967062379" class="nav-cta" target="_blank">Agendar</a></li>
   </ul>
+  <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
 </nav>
 
 <section id="hero">
@@ -34,7 +38,7 @@
     <p class="hero-sub">Um espaço seguro para crescer</p>
     <p class="hero-desc">Atendimento psicológico com escuta acolhedora e abordagem humanizada. Presencial em São Paulo e online para todo o Brasil.</p>
     <div class="hero-btns">
-      <a href="#contato" class="btn-p">Agendar Consulta</a>
+      <a href="https://wa.me/5521967062379" target="_blank" class="btn-p">Agendar Consulta</a>
       <a href="#sobre" class="btn-s">Conheça meu trabalho <span class="arr">→</span></a>
     </div>
   </div>
@@ -51,7 +55,7 @@
 <section id="sobre">
   <div style="position:relative;padding-bottom:32px;">
     <div class="sobre-card">
-      <div class="avatar">🌿</div>
+      <div class="avatar" style="background-image: url(thayla.jpeg);"></div>
       <h3>Thayla Monteiro</h3>
       <div class="crp">CRP 05/84966 — Psicóloga Clínica</div>
       <div class="tags">
@@ -64,9 +68,9 @@
   <div class="sobre-text">
     <div class="sec-label"><div class="ln"></div><span>Sobre mim</span></div>
     <h2 class="sec-title" style="margin-bottom:26px;">Psicóloga formada com paixão pelo <em>cuidado humano</em></h2>
-    <p>Olá! Sou psicóloga clínica formada pela USP, com especialização em Terapia Cognitivo-Comportamental e mais de 7 anos de atuação. Acredito que cada pessoa carrega uma história única e meu papel é caminhar ao lado dela com presença e comprometimento.</p>
-    <p>Trabalho com adultos que enfrentam ansiedade, depressão, dificuldades nos relacionamentos e questões de autoestima. Ofereço um espaço acolhedor, sem julgamentos, onde você pode se expressar livremente.</p>
-    <p>Atendo presencialmente em Pinheiros, São Paulo, e online para todo o Brasil e exterior.</p>
+    <p>Olá, sou Thayla Monteiro. Acredito que cada pessoa carrega uma história única e que a busca pelo equilíbrio emocional não tem idade. Ofereço um espaço de escuta ética, segura e acolhedora, onde crianças, adolescentes, adultos e idosos podem se expressar livremente e sem julgamentos.</p>
+    <p>Atualmente, busco o constante aperfeiçoamento técnico como pós-graduanda em Terapia Cognitivo-Comportamental (TCC), trazendo ferramentas atualizadas para auxiliar em questões de ansiedade, depressão, autoestima e desenvolvimento pessoal.</p>
+    <p>Atendo presencialmente em Maricá, Rio de Janeiro, e online para todo o Brasil e exterior.</p>
   </div>
 </section>
 
@@ -77,10 +81,10 @@
   </div>
   <div class="grid3 reveal">
     <div class="svc-card"><div class="svc-icon">🧠</div><h3>Terapia Individual</h3><p>Sessões personalizadas para adultos que buscam autoconhecimento, superação de crises emocionais e melhora do bem-estar.</p><div class="svc-meta"><span>50 min · Semanal</span><span>Presencial & Online</span></div></div>
-    <div class="svc-card"><div class="svc-icon">💑</div><h3>Terapia de Casal</h3><p>Espaço para casais trabalharem comunicação, conflitos e fortalecimento do vínculo afetivo com suporte profissional.</p><div class="svc-meta"><span>80 min · Quinzenal</span><span>Presencial & Online</span></div></div>
+    <div class="svc-card"><div class="svc-icon">💑</div><h3>Problemas no Relacionamento</h3><p>Relações difíceis muitas vezes refletem feridas antigas. Em um espaço seguro e sem julgamentos, investigamos esses padrões relacionais, fortalecemos a autoestima e desenvolvemos ferramentas para construir conexões mais saudáveis, respeitosas e significativas.</p><div class="svc-meta"><span>50 min · Quinzenal</span><span>Presencial & Online</span></div></div>
     <div class="svc-card"><div class="svc-icon">🌐</div><h3>Atendimento Online</h3><p>Consultas pelo Google Meet, com o mesmo acolhimento e qualidade do presencial, para qualquer lugar do mundo.</p><div class="svc-meta"><span>50 min · Flexível</span><span>Brasil & Exterior</span></div></div>
-    <div class="svc-card"><div class="svc-icon">😰</div><h3>Ansiedade e Depressão</h3><p>Tratamento especializado para transtornos de ansiedade, depressão e burnout com técnicas baseadas em evidências.</p><div class="svc-meta"><span>Protocolo TCC</span><span>Avaliação inicial</span></div></div>
-    <div class="svc-card"><div class="svc-icon">🤝</div><h3>Orientação Parental</h3><p>Suporte a pais e mães com dificuldades na criação dos filhos, limites, comunicação e desafios do cotidiano.</p><div class="svc-meta"><span>60 min · Mensal</span><span>Presencial & Online</span></div></div>
+    <div class="svc-card"><div class="svc-icon">😰</div><h3>Ansiedade</h3><p>Tratamento especializado para transtornos de ansiedade, depressão e burnout com técnicas baseadas em evidências.</p><div class="svc-meta"><span>Protocolo TCC</span><span>Avaliação inicial</span></div></div>
+    <div class="svc-card"><div class="svc-icon">😟</div><h3>Depressão</h3><p>Um espaço de escuta para quem sente um vazio persistente, falta de energia ou perda de interesse, focando no resgate da vitalidade e do sentido de vida.</p><div class="svc-meta"><span>50 min · Mensal</span><span>Presencial & Online</span></div></div>
     <div class="svc-card"><div class="svc-icon">🌱</div><h3>Desenvolvimento Pessoal</h3><p>Para quem busca autoconhecimento, clareza de propósito, melhora de autoestima e crescimento pessoal.</p><div class="svc-meta"><span>50 min · Quinzenal</span><span>Presencial & Online</span></div></div>
   </div>
 </section>
@@ -92,13 +96,13 @@
     <p>Utilizo a Terapia Cognitivo-Comportamental como base, integrada a recursos humanistas e mindfulness. Essa combinação permite tanto a reestruturação de pensamentos quanto o resgate da sua autenticidade e presença no momento.</p>
     <div class="pilares">
       <div class="pilar"><span class="pi">🧩</span><h4>TCC</h4><p>Identificação e transformação de padrões de pensamento</p></div>
-      <div class="pilar"><span class="pi">🌿</span><h4>Humanismo</h4><p>Respeito à singularidade e potencial de cada pessoa</p></div>
+      <div class="pilar"><span class="pi">🧠</span><h4>Inteligência Emocional</h4><p>Desenvolvimento de habilidades para lidar com as emoções no cotidiano.</p></div>
       <div class="pilar"><span class="pi">🧘</span><h4>Mindfulness</h4><p>Presença e consciência para reduzir o sofrimento</p></div>
       <div class="pilar"><span class="pi">💬</span><h4>Escuta Ativa</h4><p>Atenção plena e sem julgamentos em cada sessão</p></div>
     </div>
   </div>
 </section>
-
+<!--
 <section id="depoimentos">
   <div style="text-align:center;">
     <div class="sec-label" style="justify-content:center;"><div class="ln"></div><span>Depoimentos</span></div>
@@ -110,17 +114,17 @@
     <div class="depo-card"><span class="qm">"</span><p>Comecei a terapia em um momento muito difícil. A Ana me recebeu com tanta humanidade que consegui falar coisas que nunca tinha dito a ninguém.</p><div class="depo-autor"><div class="d-av">👩</div><div class="d-info"><div class="stars">★★★★★</div><strong>Júlia M.</strong><span>Terapia individual</span></div></div></div>
   </div>
 </section>
-
+-->
 <section id="faq">
   <div class="sec-label"><div class="ln"></div><span>Dúvidas frequentes</span></div>
   <h2 class="sec-title" style="margin-bottom:44px;">Perguntas <em>frequentes</em></h2>
   <div class="faq-item"><div class="faq-q"><h4>Quanto tempo dura uma sessão e qual a frequência?</h4><div class="tog">+</div></div><div class="faq-a"><p>As sessões individuais têm duração de 50 minutos, geralmente com frequência semanal. Com o avanço do processo terapêutico, podemos passar para quinzenal. A frequência pode ser adaptada às suas necessidades.</p></div></div>
-  <div class="faq-item"><div class="faq-q"><h4>Atende pelo plano de saúde?</h4><div class="tog">+</div></div><div class="faq-a"><p>Atualmente atendo de forma particular. Posso fornecer nota fiscal para reembolso junto ao seu plano, caso ele ofereça essa cobertura. Consulte as condições do seu convênio.</p></div></div>
+  <!-- <div class="faq-item"><div class="faq-q"><h4>Atende pelo plano de saúde?</h4><div class="tog">+</div></div><div class="faq-a"><p>Atualmente atendo de forma particular. Posso fornecer nota fiscal para reembolso junto ao seu plano, caso ele ofereça essa cobertura. Consulte as condições do seu convênio.</p></div></div> -->
   <div class="faq-item"><div class="faq-q"><h4>Como funciona a primeira consulta?</h4><div class="tog">+</div></div><div class="faq-a"><p>A primeira consulta é uma sessão de acolhimento onde você pode falar sobre o que está sentindo e o que busca na terapia. É um espaço para nos conhecermos e avaliarmos juntos se há uma boa conexão terapêutica.</p></div></div>
   <div class="faq-item"><div class="faq-q"><h4>O sigilo das sessões é garantido?</h4><div class="tog">+</div></div><div class="faq-a"><p>Sim! O sigilo profissional é um dever ético do psicólogo, garantido pelo Código de Ética do CFP. Tudo o que é dito em sessão permanece estritamente confidencial, com raríssimas exceções legais.</p></div></div>
   <div class="faq-item"><div class="faq-q"><h4>Quanto tempo leva para ver resultados?</h4><div class="tog">+</div></div><div class="faq-a"><p>Cada pessoa é única e o tempo de tratamento varia conforme os objetivos. Muitos pacientes relatam mudanças perceptíveis já nas primeiras semanas, enquanto questões mais profundas podem demandar um processo mais longo.</p></div></div>
 </section>
-
+<!--
 <section id="contato">
   <div>
     <div class="sec-label"><div class="ln"></div><span>Contato</span></div>
@@ -133,6 +137,7 @@
       <div class="c-item"><div class="c-icon">🕐</div><div><strong>Horários</strong><span>Seg–Sex: 8h–20h · Sáb: 8h–13h</span></div></div>
     </div>
   </div>
+  
   <div class="c-form reveal">
     <h3>Solicitar agendamento</h3>
     <div class="fg">
@@ -143,15 +148,47 @@
     <div class="fr"><label>Modalidade</label><select><option>Terapia Individual</option><option>Terapia de Casal</option><option>Atendimento Online</option><option>Orientação Parental</option><option>Desenvolvimento Pessoal</option></select></div>
     <div class="fr"><label>Mensagem (opcional)</label><textarea placeholder="Conte brevemente o que te trouxe até aqui..."></textarea></div>
     <button class="btn-f" onclick="alert('Mensagem enviada! Entraremos em contato em breve 🌿')">Enviar mensagem →</button>
-  </div>
+  </div> -->
 </section>
 
-<footer>
-  <p>d</p>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <div class="f-logo">Thayla Monteiro <em>.</em></div>
+      <p class="f-about">Psicologia clínica humanizada para auxiliar no seu processo de autoconhecimento e saúde mental.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+         <!-- <li><a href="#depoimentos">Depoimentos</a></li> -->
+        <li><a href="#faq">Dúvidas</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li><i class="fas fa-phone"></i> (21) 96706-2379</li>
+        <li><i class="fas fa-envelope"></i> contato@thaylapsi.com.br</li>
+        <li><i class="fas fa-map-marker-alt"></i> Maricá, Rio de Janeiro</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom f-dev">
+    <p>&copy; 2026 Thayla Monteiro - Todos os direitos reservados.</p>
+<a href="https://devcelso.netlify.app/" target="_blank" rel="noopener noreferrer"> Desenvolvido por
+      Celso Antunes Nogueira
+    </a>  </div>
 </footer>
 
-<a href="https://wa.me/5521967711699" class="wa" target="_blank">💬</a>
+
+<a href="https://wa.me/5521967062379" class="wa" target="_blank"><img src="whatsapp.png" alt=""></a>
 <script src="script.js"></script>
+
 
 </body>
 </html>
