@@ -28,10 +28,18 @@
   .nav-links a:hover { color: var(--terracotta); }
   .nav-cta { background:#c4896a; var(--sage-dark) !important;  padding: 10px 22px; border-radius: 40px; transition: background 0.3s !important; }
   .nav-cta:hover { background:white var(--terracotta) !important; }
-  .nav-ig {
-    font-size: 2rem; /* Deixa o ícone um pouco maior que o texto */
-    color: var(--primary); /* Ou a cor que você definiu para os links */
-    transition: transform 0.3s ease;
+  .nav-ig i {
+    font-size: 1.25rem; /* Ajuste este valor para o tamanho desejado */
+    color: var(--text-mid); /* Cor padrão dos seus links */
+    transition: color 0.3s;
+}
+
+.nav-ig:hover i {
+    color: #E1306C; /* Cor do Instagram no hover */
+}
+
+.nav-ig:hover {
+    transform: translateY(-2px);
 }
 
 .nav-ig:hover {
