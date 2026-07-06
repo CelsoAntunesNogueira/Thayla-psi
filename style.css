@@ -179,9 +179,28 @@ nav { position: fixed; top: 0; width: 100%; padding: 22px 64px; display: flex; a
 .f-dev a:hover { opacity: 0.8; color: var(--terracotta); }
 
 /* WHATSAPP FLOATING */
-.wa { position: fixed; bottom: 30px; right: 30px; background: #25D366; color: white; width: 58px; height: 58px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; text-decoration: none; box-shadow: 0 8px 28px rgba(37,211,102,0.4); z-index: 200; animation: pulse 2.8s ease-in-out infinite; }
-.wa img { width: 32px; height: 32px; display: block; }
+.wa {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 200;
+  background: transparent;
+  animation: pulse 2.8s ease-in-out infinite;
+}
 
+.wa img {
+  width: 58px;
+  height: 58px;
+  display: block;
+  border-radius: 50%;
+}
 /* REVEAL ON SCROLL */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
